@@ -6,9 +6,21 @@
         <field>Account.Test__c</field>
         <readable>true</readable>
     </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Employee_Detail__c.Emp_Name__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
     <layoutAssignments>
         <layout>Account-Account %28Sales%29 Layout</layout>
     </layoutAssignments>
+    <layoutAssignments>
+        <layout>Employee_Detail__c-Employee Detail Layout</layout>
+    </layoutAssignments>
+    <tabVisibilities>
+        <tab>Employee_Detail__c</tab>
+        <visibility>DefaultOn</visibility>
+    </tabVisibilities>
     <userLicense>Salesforce</userLicense>
     <userPermissions>
         <enabled>true</enabled>
